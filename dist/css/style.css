@@ -204,6 +204,10 @@ img {
   display:none
 }
 
+#tab-1{
+  font-family: Arial !important;
+}
+
 .show{
   display: block !important;
 }
@@ -241,17 +245,17 @@ img {
 }
 
 .tab-2-content-bottom{
-  margin-top: 2rem;;
-  display:grid;
+  margin-top: 2rem;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap:2rem;
+  grid-gap: 2rem;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .table{
-  width:100%;
+  width: 100%;
   margin-top: 2rem;
   border-collapse: collapse;
   /* border-spacing:0; */
@@ -265,7 +269,7 @@ img {
 .table tbody tr td{
   color: #999;
   padding: 0.8rem 1.2rem;
-  text-align:center
+  text-align: center
 }
 
 .table tbody tr td:first-child{
