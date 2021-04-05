@@ -1,14 +1,25 @@
 {
   "name": "netlifycheatsheet",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://kevinyooky.github.io/finalportfolio",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "random-words": "^1.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinyooky/FinalPortfolio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kevinyooky/FinalPortfolio/issues"
+  },
+  "description": ""
 }
